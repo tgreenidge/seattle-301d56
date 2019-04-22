@@ -37,7 +37,7 @@ function displayPics(){
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT
-  // let is block scoped - so it will not be accessible outisde of the displayPics() function. Line 38 is outside of the displayPics() function
+  // let is block scoped - so it will not be accessible outisde of the while loop
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
